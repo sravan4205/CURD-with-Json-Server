@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "firstName": "naseer",
+      "firstName": "Naseer",
       "lastName": "sk",
       "code": "123",
       "contactNumber": "741852963",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "firstName": "ravi",
+      "firstName": "Ravi",
       "lastName": "kumar",
       "code": "1234",
       "contactNumber": "789456123",
@@ -34,11 +34,35 @@
     },
     {
       "id": 5,
-      "firstName": "sridhar",
-      "lastName": "g",
-      "code": "147",
-      "contactNumber": "1456892568",
-      "address": "drcftvgybhunjim"
+      "firstName": "Naveen",
+      "lastName": "Dedavath",
+      "code": "123456",
+      "contactNumber": "4466512138",
+      "address": "fvndjso"
+    },
+    {
+      "id": 6,
+      "firstName": "Srikanth",
+      "lastName": "B",
+      "code": "123",
+      "contactNumber": "123456879",
+      "address": "bhavpet"
+    },
+    {
+      "id": 7,
+      "firstName": "sumangth",
+      "lastName": "Gandla",
+      "code": "568868",
+      "contactNumber": "563214789",
+      "address": "Nalgonda"
+    },
+    {
+      "id": 8,
+      "firstName": "Anil ",
+      "lastName": "Kumar",
+      "code": "9686",
+      "contactNumber": "7896541230",
+      "address": "knr"
     }
   ]
 }

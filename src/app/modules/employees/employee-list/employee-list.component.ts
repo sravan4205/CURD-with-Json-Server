@@ -10,7 +10,7 @@ import { Employee } from 'src/app/model/employee.model';
 export class EmployeeListComponent implements OnInit {
 
   constructor(
-    private employeeService: EmployeeService
+    public employeeService: EmployeeService
   ) { }
 
   ngOnInit() {

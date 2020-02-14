@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { EmployeesModule } from './modules/employees/employees.module';
+import { EmployeeService } from './modules/shared/employee.service';
 
 
 @NgModule({
@@ -12,9 +13,9 @@ import { EmployeesModule } from './modules/employees/employees.module';
   imports: [
     BrowserModule,
     EmployeesModule,
-    
+
   ],
-  providers: [],
+  providers: [EmployeeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
