@@ -10,7 +10,7 @@ const headerOption = {
 @Injectable()
 export class EmployeeService {
 
-  mockUrl: string = 'http://localhost:3000/Employee';
+  mockUrl = 'http://localhost:3000/Employee';
   allEmployee: Employee[];
 
   currentEmployee: Employee = {
@@ -20,7 +20,7 @@ export class EmployeeService {
     code: '',
     contactNumber: null,
     address: ''
-  }
+  };
 
   constructor(
     private http: HttpClient
@@ -34,6 +34,7 @@ export class EmployeeService {
       });
   }
 
+  // tslint:disable-next-line: ban-types
   deleteEmployee(id: Number): Observable<Employee> {
     return this.http.delete<Employee>(this.mockUrl + '/' + id, headerOption);
   }

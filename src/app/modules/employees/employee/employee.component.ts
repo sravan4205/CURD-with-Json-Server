@@ -40,6 +40,6 @@ export class EmployeeComponent implements OnInit {
       code: '',
       contactNumber: null,
       address: ''
-    }
+    };
   }
 }

@@ -5,7 +5,7 @@
       "firstName": "Sravan",
       "lastName": "Amishetti",
       "contactNumber": 9988776655,
-      "code": "emp-001",
+      "code": "001",
       "address": "KNR"
     },
     {
@@ -13,8 +13,32 @@
       "firstName": "Vijay",
       "lastName": "Amishetti",
       "contactNumber": 6665554443,
-      "code": "emp-002",
+      "code": "002",
       "address": "HYD"
+    },
+    {
+      "id": 3,
+      "firstName": "naseer",
+      "lastName": "sk",
+      "code": "123",
+      "contactNumber": "741852963",
+      "address": "sdfg"
+    },
+    {
+      "id": 4,
+      "firstName": "ravi",
+      "lastName": "kumar",
+      "code": "1234",
+      "contactNumber": "789456123",
+      "address": "fjodjrgqe'm"
+    },
+    {
+      "id": 5,
+      "firstName": "sridhar",
+      "lastName": "g",
+      "code": "147",
+      "contactNumber": "1456892568",
+      "address": "drcftvgybhunjim"
     }
   ]
 }

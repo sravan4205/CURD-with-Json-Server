@@ -5,7 +5,7 @@
       "firstName": "Sravan",
       "lastName": "Amishetti",
       "contactNumber": 9988776655,
-      "code": "emp-001",
+      "code": "001",
       "address": "KNR"
     },
     {
@@ -13,7 +13,7 @@
       "firstName": "Vijay",
       "lastName": "Amishetti",
       "contactNumber": 6665554443,
-      "code": "emp-002",
+      "code": "002",
       "address": "HYD"
     }
   ]

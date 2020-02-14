@@ -1,8 +1,10 @@
-  
+
 <table class="table table-hover">
     <tr *ngFor="let emp of employeeService.allEmployee">
+      <td>{{emp.id}}</td>
       <td>{{emp.firstName}}</td>
       <td>{{emp.lastName}}</td>
+      <td>{{emp.contactNumber}}</td>
       <!-- <td>{{emp.code}}</td> -->
       <td>
         <a class="btn text-danger" (click)="deleteEmployee(emp.id)">
